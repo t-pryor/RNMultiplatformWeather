@@ -15,5 +15,4 @@ export default function render() {
             style={{marginTop: 10}}
         />
     );
-
 }

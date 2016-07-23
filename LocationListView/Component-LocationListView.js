@@ -3,9 +3,9 @@
 import React, {Component} from 'react';
 import { AppRegistry, ListView, Text, View, TouchableHighlight, StyleSheet, Image, NavigatorIOS } from "react-native";
 
-import Render from './Render'
+import Render from './Render-LocationListView'
 
-var WeatherDetailData = require('../WeatherDetailData/Component')
+var WeatherDetailData = require('../WeatherDetailData/Component-WeatherDetailData');
 
 class LocationListView extends Component {
     // Initialize the hardcoded data

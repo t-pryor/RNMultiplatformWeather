@@ -2,7 +2,7 @@
 import React from 'react';
 import { Text, View, StyleSheet, TabBarIOS, NavigatorIOS } from "react-native";
 
-var LocationListView = require ('../LocationListView/Component')
+var LocationListView = require ('../LocationListView/Component-LocationListView')
 
 export default function render(styles) {
     return (

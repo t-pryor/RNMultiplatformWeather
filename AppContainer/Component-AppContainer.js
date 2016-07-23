@@ -3,9 +3,9 @@
 import React, {Component} from 'react';
 import { Text, View, StyleSheet, TabBarIOS, NavigatorIOS } from "react-native";
 
-import Render from './Render'
+import Render from './Render-AppContainer'
 
-var LocationListView = require ('../LocationListView/Component')
+var LocationListView = require ('../LocationListView/Component-LocationListView')
 // var westLocations = [ 'Victoria', 'Vancouver', 'Calgary', 'Edmonton', 'Saskatoon']
 // var eastLocations = [ ]
 

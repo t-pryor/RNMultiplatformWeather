@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 
 //var LocationListView = require ('./LocationListView')
-var AppContainer = require('./AppContainer/Component')
+var AppContainer = require('./AppContainer/Component-AppContainer')
 
 class RNMultiplatformWeather extends Component {
   render() {

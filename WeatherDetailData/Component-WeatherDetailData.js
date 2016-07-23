@@ -3,7 +3,7 @@
 import React, {Component} from 'react';
 import { Text, View, StyleSheet, TabBarIOS, NavigatorIOS, ListView, WebView } from "react-native";
 
-import Render from './Render'
+import Render from './Render-WeatherDetailData';
 
 class WeatherDetailData extends Component {
 
