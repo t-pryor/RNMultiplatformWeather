@@ -12,6 +12,8 @@ import {
   View
 } from 'react-native';
 
+var AppContainer = require('./AppContainer/Component-AppContainer')
+
 class RNMultiplatformWeather extends Component {
     render() {
      return (
@@ -19,7 +21,7 @@ class RNMultiplatformWeather extends Component {
              flex: 1,
              backgroundColor: '#81B0A0'
          }}>
-            <Text> Put Component here </Text>
+            <AppContainer />
          </View>
 
      );
